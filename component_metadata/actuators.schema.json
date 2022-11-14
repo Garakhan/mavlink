@@ -17,17 +17,17 @@
             "properties": {
                 "min": {
                     "type": "number",
-                    "minimum": -1,
+                    "minium": -1,
                     "maximum": 1
                 },
                 "max": {
                     "type": "number",
-                    "minimum": -1,
+                    "minium": -1,
                     "maximum": 1
                 },
                 "default": {
                     "type": "number",
-                    "minimum": -1,
+                    "minium": -1,
                     "maximum": 1
                 },
                 "default-is-nan": {
