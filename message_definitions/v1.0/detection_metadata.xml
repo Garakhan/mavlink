@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mavlink>
   <!-- XML file for object position message  -->
-  <include>common.xml</include>
+  <include>development.xml</include>
   <version>0</version>
   <dialect>9</dialect>
 <messages>
