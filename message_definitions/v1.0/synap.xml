@@ -21,7 +21,7 @@
 			<field type="float" name="lot">Longtitude</field>
 			<field type="float" name="lat">Lattitude</field>
 		</message>
-		<message id="50004" name="MAPPOINTS">
+		<message id="50004" name="MAP_POINTS">
 			<description>Mappoints acquired through Visual Odometry.</description>
 			<field type="uint32_t" name="ts">Timestamp</field>
 			<field type="float" name="x_">X</field>
