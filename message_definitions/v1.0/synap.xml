@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<mavlink>
+	<!-- XML file for object position message  -->
+	<!-- Must include either common.xml or development.xml-->
+	<include>common.xml</include>
+	<version>0</version>
+	<!-- Dialect should be the lowest unused dialect number in the directory.-->
+	<dialect>9</dialect>
+	<messages>
+	<!-- Message ID should be unique. -->
+		<message id="50003" name="DETECTION_METADATA">
+			<description>Message containing info about meta data about detected objects.</description>
+			<field type="uint64_t" name="frame_n">Frame Number</field>
+			<field type="uint8_t" name="class_id">Class ID</field>
+			<field type="uint32_t" name="bound_x">Bound X</field>
+			<field type="uint32_t" name="bound_y">Bound Y</field>
+			<field type="uint32_t" name="width">Width</field>
+			<field type="uint32_t" name="height">Height</field>
+			<field type="float" name="alt">Altitude</field>
+			<field type="float" name="head">Heading</field>
+			<field type="float" name="lot">Longtitude</field>
+			<field type="float" name="lat">Lattitude</field>
+		</message>
+		<message id="50004" name="MAPPOINTS">
+			<description>Mappoints acquired through Visual Odometry.</description>
+			<field type="uint32_t" name="ts">Timestamp</field>
+			<field type="float" name="x_">X</field>
+			<field type="float" name="y_">Y</field>
+			<field type="float" name="z_">Z</field>
+		</message>
+	</messages>
+</mavlink>
