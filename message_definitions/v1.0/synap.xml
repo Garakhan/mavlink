@@ -28,5 +28,9 @@
 			<field type="float" name="y_">Y</field>
 			<field type="float" name="z_">Z</field>
 		</message>
+		<message id="50005" name="RECORD_HANDLER">
+			<description>Start/stop video recording.</description>
+			<field type="uint8_t" name="RECORD">1 start, 0 stop recording</field>
+		</message>
 	</messages>
 </mavlink>
