@@ -20,6 +20,10 @@
 			<field type="float" name="head">Heading</field>
 			<field type="float" name="lot">Longtitude</field>
 			<field type="float" name="lat">Lattitude</field>
+			<field type="uint64_t" name="track_id">Track ID</field>
+			<field type="float" name="red">Red Color</field>
+			<field type="float" name="green">Green Color</field>
+			<field type="float" name="blue">Blue Color</field>
 		</message>
 		<message id="50004" name="MAP_POINTS">
 			<description>Mappoints acquired through Visual Odometry.</description>
